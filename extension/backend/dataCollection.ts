@@ -90,6 +90,14 @@ const convertProps = (node) => {
   return props;
 }
 
+const filterNode = (node) => {
+  if (node.tag === 0 || node.tag === 1) return false
+  else return true;
+  if (!node.type) return true;
+  if (node.type.name === undefined) return true;
+  return false;
+}
+
 const convertStructure = (node) => {
   // Convert dual linked list structure into graph
   // Create a new node
@@ -102,6 +110,10 @@ const convertStructure = (node) => {
   while(childNode.sibling) {
     convertedNode.children.push(convertStructure(childNode.sibling));
     childNode = childNode.sibling;
+  }
+  // Check if node should be filtered out
+  if (filterNode(convertedNode)) {
+    return convertedNode.children ? convertedNode.children[0] : null;
   }
   // Return converted node
   return convertedNode;
