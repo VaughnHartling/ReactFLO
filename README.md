@@ -42,10 +42,10 @@ Run `npm test` in the terminal. This will initialize the testing suite. Jest is 
 reactFLO is an opensource project and is currently in beta. If you run into any issues while using reactFLO, we ask that you submit an issue through Github. We also encourage developers to make pull requests.
 
 ### Authors
-Cherie Zhong
+Cherie Zhong (https://github.com/cmzhong)
 
-Jordan Deleon
+Jordan Deleon (https://github.com/jdele)
 
-Marcus Valverde
+Marcus Valverde (https://github.com/marcusvalverde)
 
-Vaughn Hartling
+Vaughn Hartling (https://github.com/VaughnHartling)
