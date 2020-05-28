@@ -17,10 +17,10 @@ Whether you are onboarding a new codebase or looking to expand you site, ReactFL
 * Scroll up to zoom in and scroll down to zoom out
 * Double click nodes to collapse/expand their child nodes
 * Click on a node to view its props and state
-* Select a prop to visualize its path as it flows through out the component tree
+* Select a prop to visualize its path as it flows through the component tree
   * Stateful nodes will turn orange if they contain a value equal to the value of the selected prop
-  * Stateful nodes will turn green if they contain a key with a value equal to the value of the selected prop
-  * Sibling nodes will turn green if they contain a prop with the same key but a different value to the selected prop
+  * Stateful nodes will turn cyan if they contain a key with a value equal to the value of the selected prop
+  * Sibling nodes will turn cyan if they contain a prop with the same key but a different value to the selected prop
   * Sibling nodes will turn orange if they contain a prop with the same key and value as the selected prop
 
 ### Making Changes
@@ -39,7 +39,7 @@ If you are interested in altering or expanding the functionality of ReactFLO you
 Run `npm test` in the terminal. This will initialize the testing suite. Jest is used to run unit tests on the internal library and Enzyme is used alongside Jest to run integration testing on the front end code.
 
 ### Contributing
-reactFLO is an opensource project and is currently in beta. If you run into any issues while using reactFLO, we ask that you submit an issue through Github. We also encourage developers to make pull requests.
+reactFLO is an open source project and is currently in beta. If you run into any issues while using reactFLO, we ask that you submit an issue through Github. We also encourage developers to make pull requests.
 
 ### Authors
 Cherie Zhong (https://github.com/cmzhong)
