@@ -22,6 +22,7 @@ Whether you are onboarding a new codebase or looking to expand you site, ReactFL
   * Stateful nodes will turn cyan if they contain a key with a value equal to the value of the selected prop
   * Sibling nodes will turn cyan if they contain a prop with the same key but a different value to the selected prop
   * Sibling nodes will turn orange if they contain a prop with the same key and value as the selected prop
+* Select a value in state to show which child nodes contain a similar value in their props
 
 ### Making Changes
 If you are interested in altering or expanding the functionality of ReactFLO you can access the source code and build out your own version of the application by following these steps:
