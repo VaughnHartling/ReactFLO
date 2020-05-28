@@ -10,7 +10,7 @@ Whether you are onboarding a new codebase or looking to expand you site, ReactFL
 </p>
 
 ### Getting Started
-1. Install ReactFLO from the [Chrome Web Store](https://developer.chrome.com/webstore/publish)
+1. Install ReactFLO from the [Chrome Web Store](https://chrome.google.com/webstore/detail/dcfgjebpfnpkeanpdingcfgcdjbkplim/)
 1. Make sure that the [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) are also installed and active
 1. Open a webpage that utilizes React version 16 or later (currently works best on pages being hosted locally)
 1. Open the Chrome DevTools (cmd + option + i or ctrl + shift + j) and navigate to the ReactFLO panel
